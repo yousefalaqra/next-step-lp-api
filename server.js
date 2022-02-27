@@ -53,6 +53,6 @@ app.post("/contact", async (req, res, next) => {
         });
 });
 
-app.listen(3200, () => {
+app.listen(6000, () => {
     console.log('server is running!');
 });
