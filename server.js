@@ -29,7 +29,7 @@ app.use((req, res, next) => {
     next();
 })
 
-app.post("/contact", async (req, res, next) => {
+app.post("/api/contact", async (req, res, next) => {
     // { email, name, subject, message }
     const data = { ...req.body, date: new Date(Date.now()) };
 
